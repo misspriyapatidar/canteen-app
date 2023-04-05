@@ -88,7 +88,7 @@ const Checkout = () => {
                 <div className="form__group">
                   <input
                     type="number"
-                    placeholder="Postal code"
+                    placeholder="PIN Code"
                     required
                     onChange={(e) => setPostalCode(e.target.value)}
                   />
