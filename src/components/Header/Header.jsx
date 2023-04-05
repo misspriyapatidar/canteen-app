@@ -61,10 +61,10 @@ const Header = () => {
         <div className="nav__wrapper d-flex align-items-center justify-content-between">
           <div className="logo">
             <img src={logo} alt="logo" />
-            <h5>Mini Canteen</h5>
+            <h5>Canteen</h5>
           </div>
 
-          {/* ======= menu ======= */}
+
           <div className="navigation" ref={menuRef} onClick={toggleMenu}>
             <div className="menu d-flex align-items-center gap-5">
               {nav__links.map((item, index) => (
@@ -81,7 +81,7 @@ const Header = () => {
             </div>
           </div>
 
-          {/* ======== nav right icons ========= */}
+
           <div className="nav__right d-flex align-items-center gap-4">
             <span className="cart__icon" onClick={toggleCart}>
               <i class="ri-shopping-basket-line"></i>

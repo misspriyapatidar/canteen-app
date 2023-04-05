@@ -12,7 +12,7 @@ const Footer = () => {
           <Col lg="3" md="4" sm="6">
             <div className=" footer__logo text-start">
               <img src={logo} alt="logo" />
-              <h5>Mini Canteen</h5>
+              <h5>Canteen</h5>
               <p>
                 Tasty Treat refers to a brand of food products that are known for their delicious taste and high quality. The brand offers a wide range of snacks, desserts, and other food items that are made with premium ingredients and are carefully crafted to provide a satisfying eating experience. Tasty Treat products are a popular choice for those who value great taste and quality in their food.
               </p>

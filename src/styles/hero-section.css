@@ -7,9 +7,9 @@
   line-height: 55px;
 }
 
-.hero__title span {
+/* .hero__title span {
   color: #df2020;
-}
+} */
 
 .hero__content p {
   font-size: 1rem;
@@ -35,6 +35,7 @@
 .order__btn:hover {
   background: #212245;
 }
+
 .all__foods-btn {
   background: transparent;
   border: 1px solid #df2020 !important;
@@ -44,11 +45,11 @@
   color: #df2020;
 }
 
-.hero__service p {
+/* .hero__service p {
   color: #212245;
   font-weight: 600;
   font-size: 0.9rem;
-}
+} */
 
 .shipping__icon i {
   padding: 5px;
